@@ -9,8 +9,8 @@
 ## 월요일
 ### Problem Solving
 * 백트래킹
-  1. [백준: 9663번 - N-Queen](https://www.acmicpc.net/problem/9663)
-  2. [프로그래머스: 위클리 챌린지 - 피로도](https://programmers.co.kr/learn/courses/30/lessons/87946)
+  + [백준: 9663번 - N-Queen](https://www.acmicpc.net/problem/9663)
+  + [프로그래머스: 위클리 챌린지 - 피로도](https://programmers.co.kr/learn/courses/30/lessons/87946)
 ### CS
 * Algorithm
   * 거품 정렬
@@ -23,8 +23,8 @@
 ## 수요일
 ### Problem Solving
 * 문자열 & 구현
-  3. [프로그래머스: 2020 KAKAO BLIND RECRUITMENT - 문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
-  4. [프로그래머스: 2019 KAKAO BLIND RECRUITMENT - 매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
+  + [프로그래머스: 2020 KAKAO BLIND RECRUITMENT - 문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
+  + [프로그래머스: 2019 KAKAO BLIND RECRUITMENT - 매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
 ### CS
 * Algorithm
   * 병합 정렬
@@ -36,8 +36,9 @@
   * [섹션 3. 회원 서비스 테스트까지 강의 학습](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
 ## 금요일
 ### Problem Solving
-1. [백준 7569번 - 토마토](https://www.acmicpc.net/problem/7569)
-2. [백준 17616번 - 등수 찾기](https://www.acmicpc.net/problem/17616)
+* 그래프 이론
+  + [백준 7569번 - 토마토](https://www.acmicpc.net/problem/7569)
+  + [백준 17616번 - 등수 찾기](https://www.acmicpc.net/problem/17616)
 ### CS
 * Algorithm
   * 이분 탐색
