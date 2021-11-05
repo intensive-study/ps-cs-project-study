@@ -16,6 +16,24 @@ def make_it_tuple(visited):
     return tuple(l)
 
 
+def get_diagonal_1(i, j):
+    l = []
+    for x in range(N):
+        for y in range(N):
+            if x - y == i - j:
+                l.append(visited[x][y])
+    return l
+
+
+def get_diagonal_2(i, j):
+    l = []
+    for x in range(N):
+        for y in range(N):
+            if x + y == i + j:
+                l.append(visited[x][y])
+    return l
+
+
 def dfs():
     global answer
     if queen_cnt(visited) == N:
@@ -28,15 +46,16 @@ def dfs():
         for j in range(N):
             if not visited[i][j]:
                 if True not in visited[i] and True not in list(zip(*visited))[j]:       # 가로, 세로 체크
-                    visited[i][j] = True
-                    dfs()
-                    visited[i][j] = False
+                    if True not in get_diagonal_1(i, j) and True not in get_diagonal_2(i, j):
+                        visited[i][j] = True
+                        dfs()
+                        visited[i][j] = False
 
     return
 
 
 if __name__ == '__main__':
-    global answer, check
+    global answer, check, N, visited
     check = set()
     answer = 0
     N = int(input())
