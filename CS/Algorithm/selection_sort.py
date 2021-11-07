@@ -1,4 +1,4 @@
-def selection_sort(l):
+def selection_sort(l):  # unstable
     n = len(l)
     for i in range(n - 1):
         min_idx = i
@@ -8,7 +8,7 @@ def selection_sort(l):
         l[i], l[min_idx] = l[min_idx], l[i]
 
 
-a = [2, 3, 4, 5, 1]  # unstable -> sort 후 2의 상대적 위치가 바뀜
+a = [2, 3, 4, 5, 1]  # 단점 :
 print(a)
 selection_sort(a)
 print(a)
