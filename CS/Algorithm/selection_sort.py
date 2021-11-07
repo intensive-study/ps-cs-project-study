@@ -8,7 +8,8 @@ def selection_sort(l):  # unstable
         l[i], l[min_idx] = l[min_idx], l[i]
 
 
-a = [2, 3, 4, 5, 1]  # 단점 :
-print(a)
-selection_sort(a)
-print(a)
+l = [2, 3, 4, 5, 1]
+# l = [2, 1, 2, 1] -> 같은 값의 상대적 위치 변함
+print(l)
+selection_sort(l)
+print(l)
