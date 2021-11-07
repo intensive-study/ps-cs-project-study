@@ -8,7 +8,8 @@ def insertion_sort(l):
         l[j + 1] = value
 
 
-l = [7, 2, 4, 1, 5, 3]
+# l = [7, 2, 4, 1, 5, 3]
+l = [1, 2, 3, 4, 5, 0]
 print(l)
 insertion_sort(l)
 print(l)
