@@ -1,5 +1,6 @@
 # Algorithm
-
+![time_complexity](https://lamfo-unb.github.io/img/Sorting-algorithms/Complexity.png)
+## 정렬
 ### 거품 정렬 (Stable)
 ![거품 정렬](https://gmlwjd9405.github.io/images/algorithm-bubble-sort/bubble-sort.png)
 - 장점
