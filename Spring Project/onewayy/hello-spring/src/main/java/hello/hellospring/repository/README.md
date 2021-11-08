@@ -14,4 +14,19 @@
 
 인터페이스의 메소드의 접근제어자는 반드시 public이여야 함!!! 아니경우는 정의할수없음 (에러발생)
 
-![img.png](img.png)
+- 인터페이스도 상속이 된다.
+
+        interface I3 {
+            public void x();
+        }
+
+        //상속
+        interface I4 extends() I3 {
+            public void z();
+        }
+
+
+        class B implement I4 {
+          public void x() {}
+          public void z() {}
+        }
