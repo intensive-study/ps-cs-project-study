@@ -1,6 +1,6 @@
 def bubble_sort(l):  # stable
     n = len(l)
-    for i in range(n - 1):  # outer loop 마지막 한번 더 검사 줄이기
+    for i in range(n - 1):  # outer loop 마지막 한번 더 검사 줄이기 (n - 1)
         flag = False
         for j in range(n - 1 - i):  # 한번 loop 돌때마다 뒤에서 i 번째까진 정렬되 있으므로 optimize 하기위해 -i 크기만큼 순회
             if l[j] > l[j + 1]:
