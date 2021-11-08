@@ -14,9 +14,8 @@ def quick_sort(l, start, end):
         else:  # 엇갈리지 않았다면, 작은 데이터와 큰 데이터 교체
             l[left], l[right] = l[right], l[left]
 
-        # 분할 후 왼쪽 부분과 오른쪽 부분 각각 정렬 수행
-        quick_sort(l, start, right - 1)
-        quick_sort(l, right + 1, end)
+        quick_sort(l, start, right - 1)  # 왼쪽 부분
+        quick_sort(l, right + 1, end)  # 오른쪽 부분 정렬 수행
 
 
 if __name__ == '__main__':
