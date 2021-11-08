@@ -31,7 +31,18 @@
   - 레코드 수가 많고 레코드 크기가 클 경우에 적합하지 않다.
 
 ### 퀵 정렬
-
+![퀵 정렬1](https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort.png)
+![퀵 정렬2](https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort2.png)
+- 장점
+  - 속도가 빠르다.
+  - 시간 복잡도가 O(nlog₂n)를 가지는 다른 정렬 알고리즘과 비교했을 때도 가장 빠르다.
+  - 추가 메모리 공간을 필요로 하지 않는다.
+  - 퀵 정렬은 O(log n)만큼의 메모리를 필요로 한다.
+- 단점
+  - 이미 정렬된 리스트에 대해서는 퀵 정렬의 불균형 분할에 의해 오히려 수행시간이 더 많이 걸린다.
+- 퀵 정렬의 불균형 분할을 방지하기 위하여 피벗을 선택할 때 더욱 리스트를 균등하게 분할할 수 있는 데이터를 선택한다.
+  - 리스트 내의 몇 개의 데이터 중에서 크기순으로 중간 값(medium)을 피벗으로 선택한다.
+  - 무작위(random)로 pivot 고르기
 
 # Reference
 - https://gmlwjd9405.github.io/tags.html#algorithm
