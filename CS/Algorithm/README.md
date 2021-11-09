@@ -65,10 +65,20 @@
 ### Quick sort vs Heap sort
 - [Reference](https://stackoverflow.com/questions/2467751/quicksort-vs-heapsort)
 
-### 기수 정렬
+### 기수 정렬 (Radix)
+![img.png](img/img.png)
+- Time Complexity: θ( w(n + k) ) -> θ(wn) 
+- k = 기준으로 정한 k진수
+- w = 주어진 list의 최대 자릿수
+- n = 리스트의 길이
+- 장점
+  - 같은 두 수가 있어도 순서가 섞이지 않는 안정 정렬입니다.(Stable)
 
+- 단점
+  - 자릿수가 없는 것은 정렬할 수가 없습니다.(부동 소수점과 같은 것)
+  - 중간 결과를 저장할 Bucket 공간이 필요합니다.
 ### 계수 정렬 (Counting)
-- θ(n + k)
+- Time Complexity: θ(n + k), Space Complexity: θ(k) 
   - n = element 갯수, k = 범위
 - **'범위조건'**이 있는 경우에 한해서 굉장히 빠르다.
   - 알파벳같이 문자가 26개로 제한된 경우에는 매우 효율적이다. 
