@@ -54,6 +54,20 @@
     - 제자리 정렬(in-place sorting)이 아니다.
   - 레크드들의 크기가 큰 경우에는 이동 횟수가 많으므로 매우 큰 시간적 낭비를 초래한다.
 
+### 힙 정렬 (Heap)
+- 장점
+  - 가장 큰 값 몇 개만 필요할 때 힙정렬 알고리즘이 유용하다.
+  - 최악의 경우에도 시간 복잡도인 θ(nlogn)을 보장한다.
+- 단점
+  - 데이터들의 상태에 따라 다른 정렬법들에 비해서 조금 느린편이다.
+  - 데이터의 순서가 바뀌는 unstable한 알고리즘이다.
+
+### Quick sort vs Heap sort
+- [Reference](https://stackoverflow.com/questions/2467751/quicksort-vs-heapsort)
+
+### 기수 정렬
+
+### 계수 정렬
 
 # Reference
 - https://gmlwjd9405.github.io/tags.html#algorithm
