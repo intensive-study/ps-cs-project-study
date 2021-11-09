@@ -1,4 +1,4 @@
-def count_sort_str(arr):
+def counting_sort_str(arr):
     output = [0 for i in range(len(arr))]
     count = [0 for i in range(256)]
     ans = ["" for _ in arr]
@@ -15,7 +15,7 @@ def count_sort_str(arr):
     return ans
 
 
-def count_sort_int(arr):
+def counting_sort_int(arr):
     max_element = int(max(arr))
     min_element = int(min(arr))
     range_of_elements = max_element - min_element + 1
@@ -40,6 +40,6 @@ if __name__ == '__main__':
     test_int = [5, 5, 5, 1, 1, 2, 3, 3, 3, 2, 1, 1, 2, 2, 2]
     test_str = 'ddcceeaagagagggagag'
     print(test_int, test_str)
-    count_sort_int(test_int)
-    answer = count_sort_str(test_str)
+    counting_sort_int(test_int)
+    answer = counting_sort_str(test_str)
     print(test_int, ''.join(answer))
