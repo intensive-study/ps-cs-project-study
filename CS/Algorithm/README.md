@@ -1,7 +1,7 @@
 # Algorithm
 ![time_complexity](https://lamfo-unb.github.io/img/Sorting-algorithms/Complexity.png)
 ## 정렬
-### 거품 정렬 (Stable)
+### 거품 정렬 (Bubble)
 ![거품 정렬](https://gmlwjd9405.github.io/images/algorithm-bubble-sort/bubble-sort.png)
 - 장점
   - 간단한 구현
@@ -13,14 +13,14 @@
   - 특히 특정 요소가 최종 정렬 위치에 이미 있는 경우라도 교환되는 일이 일어난다.
 - 일반적으로 자료의 교환 작업(SWAP)이 자료의 이동 작업(MOVE)보다 더 복잡하기 때문에 버블 정렬은 단순성에도 불구하고 "거의 쓰이지 않는다."
 
-### 선택 정렬 (Unstable)
+### 선택 정렬 (Selection)
 ![선택 정렬](https://gmlwjd9405.github.io/images/algorithm-selection-sort/selection-sort.png)
 - 장점
   - 자료 이동 횟수가 미리 결정된다.
 - 단점
   - 같은 값의 상대적인 위치가 변경될 수 있다. ex) [2, 1, 2, 1]
 
-### 삽입 정렬
+### 삽입 정렬 (Insertion)
 ![삽입 정렬](https://gmlwjd9405.github.io/images/algorithm-insertion-sort/insertion-sort.png)
 - 장점
   - 안정한 정렬 방법
@@ -30,7 +30,7 @@
   - 비교적 많은 레코드들의 이동을 포함한다.
   - 레코드 수가 많고 레코드 크기가 클 경우에 적합하지 않다.
 
-### 퀵 정렬
+### 퀵 정렬 (Quick)
 ![퀵 정렬1](https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort.png)
 ![퀵 정렬2](https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort2.png)
 - 장점
@@ -43,6 +43,17 @@
 - 퀵 정렬의 불균형 분할을 방지하기 위하여 피벗을 선택할 때 더욱 리스트를 균등하게 분할할 수 있는 데이터를 선택한다.
   - 리스트 내의 몇 개의 데이터 중에서 크기순으로 중간 값(medium)을 피벗으로 선택한다.
   - 무작위(random)로 pivot 고르기
+
+### 병합 정렬 (Merge)
+![병합 정렬](https://gmlwjd9405.github.io/images/algorithm-merge-sort/merge-sort-concepts.png)
+- 장점
+  - 정확히 반절로 나누기에 최악의 경우에도 O(nlog₂n)보장함
+    - 그러므로, 데이터의 분포에 영향을 덜 받는다.
+- 단점
+  - 기존의 데이터를 담을 추가적인 배열공간이 필요하다 -> 공간 복잡도 O(n)
+    - 제자리 정렬(in-place sorting)이 아니다.
+  - 레크드들의 크기가 큰 경우에는 이동 횟수가 많으므로 매우 큰 시간적 낭비를 초래한다.
+
 
 # Reference
 - https://gmlwjd9405.github.io/tags.html#algorithm
