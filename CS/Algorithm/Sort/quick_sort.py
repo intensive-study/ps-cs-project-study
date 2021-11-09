@@ -1,3 +1,5 @@
+# not stable
+# inplace
 def quick_sort(l, start, end):
     if start >= end:  # 원소가 1개인 경우 종료
         return
