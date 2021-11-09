@@ -67,7 +67,14 @@
 
 ### 기수 정렬
 
-### 계수 정렬
+### 계수 정렬 (Counting)
+- θ(n + k)
+  - n = element 갯수, k = 범위
+- **'범위조건'**이 있는 경우에 한해서 굉장히 빠르다.
+  - 알파벳같이 문자가 26개로 제한된 경우에는 매우 효율적이다. 
+- It is often used as a sub-routine to another sorting algorithm like radix sort.
+- 구현 방법에 따라 stable하거나 unstable 하다
+
 
 # Reference
 - https://gmlwjd9405.github.io/tags.html#algorithm
