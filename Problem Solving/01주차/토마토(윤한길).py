@@ -1,4 +1,6 @@
 from collections import deque
+import sys
+input = sys.stdin.readline
 
 
 def check(l):
@@ -23,6 +25,7 @@ def bfs(box, ripe_locations):
     dz = [0, 0, 0, 0, 1, -1]
 
     while ripe_locations:
+        # print()
         v = ripe_locations.popleft()
 
         for i in range(6):
@@ -30,13 +33,14 @@ def bfs(box, ripe_locations):
             ny = v[0] + dy[i] + dz[i] * N  # 2차원으로 해결하기위해
 
             if i in [0, 1]:
-                if 0 > ny >= N * H and v[0] // N != ny:
+                if 0 > ny >= N * H or v[0] // N != ny // N:
                     continue
 
             if 0 <= ny < N * H and 0 <= nx < M:  # 박스 범위 체크
                 if box[ny][nx] not in [1, -1]:
                     box[ny][nx] = 1
                     ripe_locations.append((ny, nx, v[2] + 1))
+                    # print((ny, nx, v[2] + 1))
     if 'v' in locals():
         return v[2]
     else:
