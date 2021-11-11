@@ -20,13 +20,12 @@
   * 다익스트라 알고리즘
 ### Spring Proejct
 * 스프링 입문
-  * [-미정-](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
+  * [~ 섹션 6. 스프링 DB 접근 기술 - 스프링 통합 테스트](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
 ## 수요일
 ### Problem Solving
 * 구현, --
   + [백준 1194번 - 달이 차오른다, 가자](https://www.acmicpc.net/problem/1194)
   + [-미정-]
-  
 ### CS
 * Algorithm
   * 비트마스크
@@ -35,7 +34,7 @@
   * 스레드와 병행성
 ### Spring Proejct
 * 스프링 입문
-  * [-미정-](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
+  * [~ 섹션 6. 스프링 DB 접근 기술 - 스프링 데이터 JPA](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
 ## 금요일
 ### Problem Solving
 * 구현, --
@@ -48,9 +47,8 @@
   * 교착 상태
 ### Spring Proejct
 * 스프링 입문
-  * [-미정-](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
-***
-***
+  * [~ 섹션 8. 다음으로](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
+
 
 ***
 1주차(11.05 ~ 11.12)
