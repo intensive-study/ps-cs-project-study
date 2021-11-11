@@ -54,12 +54,13 @@ if __name__ == '__main__':
     ripe_locations = deque(find_ripe(box))
 
     if check(box):
-        for i in box:
-            for j in i:
-                if j == 1:
-                    print(0)
-        else:
-            print(-1)
+        print(0)
+        # for i in box:
+        #     for j in i:
+        #         if j == 1:
+        #             print(0)
+        # else:
+        #     print(-1)
     else:
         tmp = bfs(box, ripe_locations)
         if check(box):
