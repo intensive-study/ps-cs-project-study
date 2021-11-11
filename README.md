@@ -2,8 +2,56 @@
 - 시간 : 14:00 ~ 
 - 날짜 : 월요일, 수요일, 금요일
 - 장소 : Discord (비대면)
+
 ***
-1주차(11.05 ~ )
+2주차(11.15 ~ 11.19)
+***
+
+## 월요일
+### Problem Solving
+* 비트마스킹, DP
+  + [백준 2098번 - 외판원 순회](https://www.acmicpc.net/problem/2098)
+  + [백준 12920번 - 평범한 배낭 2](https://www.acmicpc.net/problem/12920)
+### CS
+* Algorithm
+  * 최장 증가 수열(LIS)
+  * 최소 공통 조상(LCA)
+  * 동적 계획법(DP)
+  * 다익스트라 알고리즘
+### Spring Proejct
+* 스프링 입문
+  * [~ 섹션 6. 스프링 DB 접근 기술 - 스프링 통합 테스트](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
+## 수요일
+### Problem Solving
+* 구현, --
+  + [백준 1194번 - 달이 차오른다, 가자](https://www.acmicpc.net/problem/1194)
+  + [-미정-]
+### CS
+* Algorithm
+  * 비트마스크
+* 운영체제
+  * 프로세스
+  * 스레드와 병행성
+### Spring Proejct
+* 스프링 입문
+  * [~ 섹션 6. 스프링 DB 접근 기술 - 스프링 데이터 JPA](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
+## 금요일
+### Problem Solving
+* 구현, --
+  + [프로그래머스: 2020 KAKAO BLIND RECRUITMENT - 기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
+  + [-미정-]
+### CS
+* 운영체제
+  * CPU 스케쥴링
+  * 동기화
+  * 교착 상태
+### Spring Proejct
+* 스프링 입문
+  * [~ 섹션 8. 다음으로](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
+
+
+***
+1주차(11.05 ~ 11.12)
 ***
 
 ## 월요일
