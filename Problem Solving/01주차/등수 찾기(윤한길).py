@@ -30,3 +30,6 @@ if __name__ == '__main__':
         reversed_order[a].append(b)
 
     print(bfs(in_order), N - (bfs(reversed_order) - 1))
+
+
+# img reference: http://dl.dropbox.com/s/wjr1sq7wwy5rk38/%EB%B0%B1%EC%A4%80-17616_%EB%93%B1%EC%88%98%20%EC%B0%BE%EA%B8%B0-2.png
