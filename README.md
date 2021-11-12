@@ -25,7 +25,7 @@
 ### Problem Solving
 * 구현, --
   + [백준 1194번 - 달이 차오른다, 가자](https://www.acmicpc.net/problem/1194)
-  + [-미정-]
+  + [백준 11559번 - Puyo Puyo](https://www.acmicpc.net/problem/11559)
 ### CS
 * Algorithm
   * 비트마스크
@@ -37,9 +37,9 @@
   * [~ 섹션 6. 스프링 DB 접근 기술 - 스프링 데이터 JPA](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
 ## 금요일
 ### Problem Solving
-* 구현, --
+* 구현
   + [프로그래머스: 2020 KAKAO BLIND RECRUITMENT - 기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
-  + [-미정-]
+  + [백준 5551번 - 쇼핑몰](https://www.acmicpc.net/problem/5551)
 ### CS
 * 운영체제
   * CPU 스케쥴링
@@ -48,7 +48,7 @@
 ### Spring Proejct
 * 스프링 입문
   * [~ 섹션 8. 다음으로](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
-
+***
 
 ***
 1주차(11.05 ~ 11.12)
