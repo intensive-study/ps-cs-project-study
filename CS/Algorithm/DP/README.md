@@ -27,14 +27,14 @@
     - 장점 : 함수를 재귀적 호출하지 않아도 되기에 시간, 메모리 사용량을 줄일수 있다
     
 
-                dp = [0 for i in range(100)]
-                dp[1], dp[2] = 1, 1
-                
-                
-                def fibo(x):
-                    for i in range(3, x + 1):
-                        dp[i] = dp[i - 1] + dp[i - 2]
-                    return dp[x]
-                
-                
-                print(fibo(99))
+            dp = [0 for i in range(100)]
+            dp[1], dp[2] = 1, 1
+            
+            
+            def fibo(x):
+                for i in range(3, x + 1):
+                    dp[i] = dp[i - 1] + dp[i - 2]
+                return dp[x]
+            
+            
+            print(fibo(99))
