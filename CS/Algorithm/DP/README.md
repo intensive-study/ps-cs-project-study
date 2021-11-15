@@ -94,3 +94,6 @@
         print("INFINITY")
       else:
         print(distance[i])
+
+# 비트마스크
+- [참고](https://justkode.kr/algorithm/bitmash)
