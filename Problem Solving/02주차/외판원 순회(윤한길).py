@@ -20,7 +20,7 @@ def dfs(current, visited):
             continue
 
         dp[current][visited] = min(dp[current][visited], dfs(i, visited | (1 << i)) + graph[current][i])
-        print(*dp, sep='\n')
+        # print(*dp, sep='\n')
         # print('---------------------------------------------------------------------------------')
     return dp[current][visited]
 
