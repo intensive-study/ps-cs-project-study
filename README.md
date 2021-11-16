@@ -39,7 +39,8 @@
 ### Problem Solving
 * 구현
   + [프로그래머스: 2020 KAKAO BLIND RECRUITMENT - 기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
-  + [백준 5551번 - 쇼핑몰](https://www.acmicpc.net/problem/5551)
+  + [백준 2470번 - 두 용액](https://www.acmicpc.net/problem/2470)
+  + [~~백준 5551번 - 쇼핑몰~~](https://www.acmicpc.net/problem/5551)
 ### CS
 * 운영체제
   * CPU 스케쥴링
