@@ -3,11 +3,70 @@
 - 날짜 : 월요일, 수요일, 금요일
 - 장소 : Discord (비대면)
 
-***
-2주차(11.15 ~ 11.19)
-***
+<hr />
+
+3주차(11.22 ~ 11.26)
+
+<hr />
 
 ## 월요일
+
+### Problem Solving
+
+* 그래프 이론
+  + [백준 1175 - 배달](https://www.acmicpc.net/problem/1175)
+  + [백준 16973 - 직사각형 탈출](https://www.acmicpc.net/problem/16973)
+
+### CS
+
+* 운영체제
+  * 페이지, 세그먼트
+    * 메인 메모리
+    * 가상 메모리
+
+<br/>
+
+## 수요일
+
+### Problem Solving
+
+* 투 포인터/이분탐색
+  + [백준 16472 - 고냥이](https://www.acmicpc.net/problem/16472)
+  + [백준 13422 - 도둑](https://www.acmicpc.net/problem/13422)
+
+### CS
+
+* 데이터베이스
+
+  * 키
+  * SQL JOIN
+  * SQL Injection
+
+  
+
+## 금요일
+
+### Problem Solving
+
+* 스택
+  + [백준 오등큰수 - 17299](https://www.acmicpc.net/problem/17299)
+  + [백준 괄호 제거 - 2800](https://www.acmicpc.net/problem/2800)
+
+### CS
+
+* 데이터베이스
+  * SQL vs NoSQL
+  * 정규화 & 반정규화
+
+***
+2주차(11.15 ~ 11.19)
+
+***
+
+
+
+## 월요일
+
 ### Problem Solving
 * 비트마스킹, DP
   + [백준 2098번 - 외판원 순회](https://www.acmicpc.net/problem/2098)
@@ -50,6 +109,8 @@
 * 스프링 입문
   * [~ 섹션 8. 다음으로](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
 ***
+
+
 
 ***
 1주차(11.05 ~ 11.12)
