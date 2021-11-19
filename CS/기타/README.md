@@ -40,7 +40,9 @@
 
 ### Blocking vs Non-Blocking
 
+<br/>
 
+### GIL(Global Interpreter Lock)
 
 <br/>
 
