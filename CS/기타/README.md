@@ -46,6 +46,23 @@
 
 <br/>
 
+### 일반 함수 vs 람다 함수(익명함수)
+- 일반적으로 여러번 사용하고 복잡한 로직이 필요한 경우 일반 함수(def)를 사용하고,
+- 간단한 로직이나, 일회성으로 사용되는 함수같은 경우 람다함수를 이용한다.
+
+
+    # 일반 함수 버전
+    def is_even(x):
+        return x % 2 == 0
+    result = list(filter(is_even, range(7)))
+    # result = [0, 2, 4, 6]
+     
+    # 람다 함수 버전
+    result = list(filter((lambda x: x % 2 == 0), range(7)))
+    # result = [0, 2, 4, 6]
+
+<br/>
+
 ### Reference
 
 - [튜나 개발일기](https://devuna.tistory.com/82)
