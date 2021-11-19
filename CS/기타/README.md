@@ -51,15 +51,15 @@
 - 간단한 로직이나, **일회성**으로 사용되는 함수같은 경우 람다함수를 이용한다.
 
 
-    # 일반 함수 버전
+    \#일반 함수 버전
     def is_even(x):
         return x % 2 == 0
     result = list(filter(is_even, range(7)))
-    # result = [0, 2, 4, 6]
+    \# result = [0, 2, 4, 6]
      
-    # 람다 함수 버전
+    \#람다 함수 버전
     result = list(filter((lambda x: x % 2 == 0), range(7)))
-    # result = [0, 2, 4, 6]
+    \# result = [0, 2, 4, 6]
 
 <br/>
 
