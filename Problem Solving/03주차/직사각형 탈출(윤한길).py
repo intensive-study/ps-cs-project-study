@@ -22,6 +22,7 @@ def bfs(start_y, start_x):
                 if not visited[ny][nx]:
                     visited[ny][nx] = True
                     dq.append((ny, nx, dist + 1))
+    return -1
 
 
 if __name__ == '__main__':
@@ -29,19 +30,41 @@ if __name__ == '__main__':
     visited = [list(map(int, input().split())) for _ in range(N)]
     H, W, S_r, S_c, F_r, F_c = map(int, input().split())
 
-    # visited 만들기
+    prefix_sum = [[0] for _ in range(N)]
+    for i in range(len(visited)):
+        sum_value = 0
+        for j in visited[i]:
+            sum_value += j
+            prefix_sum[i].append(sum_value)
+    # print(*prefix_sum, sep='\n')
+
     for i in range(N):
         for j in range(M):
             total = 0
             flag = False
             for k in range(H):
                 if 0 <= i + H <= N and 0 <= j + W <= M:
-                    total += sum(visited[i + k][j:j + W])
+                    total += prefix_sum[i + k][j + W] - prefix_sum[i + k][j]
                 else:
                     visited[i][j] = True
                     flag = True
             if not flag:
                 visited[i][j] = False if total == 0 else True
+
+
+    # # visited 만들기
+    # for i in range(N):
+    #     for j in range(M):
+    #         total = 0
+    #         flag = False
+    #         for k in range(H):
+    #             if 0 <= i + H <= N and 0 <= j + W <= M:
+    #                 total += sum(visited[i + k][j:j + W])
+    #             else:
+    #                 visited[i][j] = True
+    #                 flag = True
+    #         if not flag:
+    #             visited[i][j] = False if total == 0 else True
 
     # print(*visited, sep='\n')
     print(bfs(S_r - 1, S_c - 1))
