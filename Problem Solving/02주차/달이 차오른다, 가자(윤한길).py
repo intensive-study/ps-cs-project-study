@@ -12,7 +12,7 @@ def bfs(y, x, init_keys):
     dx = [0, 0, -1, 1]
 
     dq = deque([(y, x, init_keys, 0)])
-    visited[y][x][init_keys]
+    visited[y][x][init_keys] = True
 
     while dq:
         y, x, keys_status, cnt = dq.popleft()
