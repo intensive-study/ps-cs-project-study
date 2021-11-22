@@ -32,7 +32,6 @@
 
 * 투 포인터/이분탐색
   + [백준 16472 - 고냥이](https://www.acmicpc.net/problem/16472)
-  + [백준 13422 - 도둑](https://www.acmicpc.net/problem/13422)
 
 ### CS
 
@@ -40,9 +39,13 @@
 
   * 키
   * SQL JOIN
-  * SQL Injection
-
   
+
+### Lecture
+
+* 스프링 핵심원리 - 기본편
+  * [섹션1. 객체 지향 설계와 스프링](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum)
+  * [섹션2. 스프링 핵심 원리 이해1 - 예제 만들기](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum)
 
 ## 금요일
 
@@ -50,13 +53,19 @@
 
 * 스택
   + [백준 오등큰수 - 17299](https://www.acmicpc.net/problem/17299)
-  + [백준 괄호 제거 - 2800](https://www.acmicpc.net/problem/2800)
 
 ### CS
 
 * 데이터베이스
   * SQL vs NoSQL
   * 정규화 & 반정규화
+
+### Lecture
+
+* 스프링 핵심원리 - 기본편
+  * [섹션 3. 스프링 핵심 원리 이해2 - 객체 지향 원리 적용](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum)
+  * [섹션 4. 스프링 컨테이너와 스프링 빈](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum)
+  * [섹션 5. 싱글톤 컨테이너](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum)
 
 ***
 2주차(11.15 ~ 11.19)
