@@ -17,12 +17,11 @@ if __name__ == '__main__':
 
         if len(str_array) == right:
             if len(cnt) > N:
-                answer = max(len(dq)-1, answer)
+                answer = max(len(dq) - 1, answer)
                 break
             else:
                 answer = max(len(dq), answer)
                 break
-
 
         tmp = dq.popleft()
         answer = max(len(dq), answer)
