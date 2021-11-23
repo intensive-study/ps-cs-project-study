@@ -1,5 +1,4 @@
 # Database
 
-**키**
-
-**SQL JOIN**
+1. 키
+2. SQL JOIN
