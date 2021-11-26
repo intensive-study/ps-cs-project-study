@@ -24,7 +24,8 @@
 #### CS
 
 * 데이터베이스
-  * Redis
+  * Transaction
+  * Transcation Isolation Level
 
 #### Lecture
 
@@ -45,8 +46,8 @@
 
 * 데이터베이스
 
-  * Transaction
-  * Transcation Isolation Level
+  * Connection Pool
+  * Partition Table
 
 #### Lecture
 
