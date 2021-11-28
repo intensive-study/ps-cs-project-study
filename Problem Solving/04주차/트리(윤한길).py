@@ -1,28 +1,41 @@
 def dfs(node):
-    global cnt
+    removing_nodes.add(node)
     visited[node] = True
 
     for i in graph[node]:
         if not visited[i]:
             dfs(i)
-            cnt += 1
 
 
 if __name__ == '__main__':
-    global cnt
-    cnt = 0
     N = int(input())
-    graph = [[] for _ in range(N)]
+    graph = [set() for _ in range(N)]
     for i, v in enumerate(list(map(int, input().split()))):
         if v != -1:
-            graph[i].append(v)
-            graph[v].append(i)
+            graph[v].add(i)
         else:
             continue
     removing_node = int(input())
-    print(graph)
     visited = [False] * N
-    print(visited)
-    dfs(0)
-    print(visited)
+    removing_nodes = set()
+
+    dfs(removing_node)
+    for i, v in enumerate(graph):
+        graph[i] = v - removing_nodes
+
+    cnt = 0
+    for i, v in enumerate(graph):
+        graph[i] = v - removing_nodes
+        if i in removing_nodes:
+            continue
+        else:
+            if not v:
+                cnt += 1
     print(cnt)
+
+
+"""
+4
+-1 0 0 1
+3
+"""
