@@ -25,7 +25,6 @@ if __name__ == '__main__':
 
     cnt = 0
     for i, v in enumerate(graph):
-        graph[i] = v - removing_nodes
         if i in removing_nodes:
             continue
         else:
