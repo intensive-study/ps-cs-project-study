@@ -20,6 +20,7 @@ def dfs(current, visited):
             tmp = min(tmp, dfs(next, nowVisit) + distance[current][next])
     dp[current][visited] = tmp # visited 경로를 지나는 최단 거리
     
+    print(dp)
     return tmp
 
 print(dfs(0, 1 << 0)) 
