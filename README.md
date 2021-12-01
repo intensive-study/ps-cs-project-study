@@ -68,6 +68,9 @@
 
 * 그리디
   * [백준 1715 - 카드 정렬하기](https://www.acmicpc.net/problem/1715)
+* 두 포인터
+  * [백준 1806 부분합](https://www.acmicpc.net/problem/1806)
+
 
 
 #### CS
