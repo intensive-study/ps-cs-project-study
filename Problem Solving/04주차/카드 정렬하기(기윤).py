@@ -6,7 +6,6 @@ n = int(input())
 bundles = [int(input()) for _ in range(n)]
 heapify(bundles)
 answer = 0
-first = True
 
 while bundles:
     if n == 1:
