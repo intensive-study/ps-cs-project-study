@@ -58,5 +58,4 @@ def solve(s, lst):
         return minLen
 
 
-
 print(solve(s, lst))
