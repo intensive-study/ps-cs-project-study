@@ -44,7 +44,7 @@
 
 ### GIL(Global Interpreter Lock)
 - Python의 Garbage Collector가 Reference Counting으로 메모리를 해제하므로, GIL이 존재한다.
-  - 예를 들어 GIL이 없을 경우, 멀티 스레딩 구조에서 A라는 스레드가 reference count가 0이 된 후 garbage collector가 사용하던 변수를 지워버리고, A스레드와 같은 자원을 공유하고 있던 B라는 스레드가 뒤늦게 지워진 변수에 접근하려 하면 에러가 발생함
+  - 예를 들어 GIL이 없을 경우, 멀티 스레딩 구조에서 A라는 스레드가 reference count가 0이 된 후 garbage collector가 사용하던 변수를 지워버리고, A스레드와 같은 자원을 공유하고 있던 B라는 스레드가 뒤늦게 지워진 변수에 접근하려 하면 에러가 발생함.
 
 <br/>
 
