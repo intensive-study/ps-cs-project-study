@@ -103,7 +103,7 @@ for a in (n for n in range(1,11)):
     print(a)
 ```
 **List Comprehension**
-- 첫번째 에서는 list가 반환돼어 쓰였고, 두번째에서는 Generator가 반환돼 쓰였다. 하지만 이 둘에는 큰 차이가 있는데 내부적으로 컴퓨터 메모리와 관련이 있다.
+- 첫번째 예시는 list가 반환돼어 쓰였고, 두번째 예시는 Generator가 반환돼 쓰였다. 하지만 이 둘에는 큰 차이가 있는데 내부적으로 컴퓨터 메모리와 관련이 있다.
 
 ![list_comprehesion](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2F7Gh3L%2FbtqXXjWUn88%2FcaJKDmiNKf4QR9AUkEQ1gk%2Fimg.png)
 - 중요한 것은 1번과 같이 list comprehension 식을 입력했을 때 메모리에 배열의 크기에 비례하는 공간이 바로 할당된다는 것이다.
