@@ -91,6 +91,39 @@ The Python Global Interpreter Lock or GIL, in simple words, is a mutex (or a loc
 
 <br/>
 
+### List Comprehension vs Generator
+```
+# list comprehension(eager loading)
+for a in [n for n in range(1,11)]:
+    print(a)
+```
+```
+# generator(lazy loading)
+for a in (n for n in range(1,11)):
+    print(a)
+```
+**List Comprehension**
+- 첫번째 에서는 list가 반환돼어 쓰였고, 두번째에서는 Generator가 반환돼 쓰였다. 하지만 이 둘에는 큰 차이가 있는데 내부적으로 컴퓨터 메모리와 관련이 있다.
+
+![list_comprehesion](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2F7Gh3L%2FbtqXXjWUn88%2FcaJKDmiNKf4QR9AUkEQ1gk%2Fimg.png)
+- 중요한 것은 1번과 같이 list comprehension 식을 입력했을 때 메모리에 배열의 크기에 비례하는 공간이 바로 할당된다는 것이다.
+- 위의 예에서라면 10개의 정수가 배열에 있으므로 이 배열의 총 크기는 40 byte(4 * 10)이 될 것이다.
+
+**Generator**
+- generator expression을 통해 생성한 generator는 숫자 10개를 생성할 예정이지만 그것을 배열 등의 구체적인 형태로 가지고 있지 않다.
+- generator expression은 지정한 규칙대로 값을 반환할 규칙과 현재 어디까지 반환했는지 들을 관리할 여러 상태 값을 담고 있지만 배열과 달리 값 모두를 generator를 생성할 당시에 메모리에 할당하지 않는다는 결정적인 차이가 있다.
+
+**Generator 장점**
+
+1. 메모리를 효율적으로 사용할 수 있다.
+    - list 는 리스트 안의 모든 데이터를 메모리에 저장하기 때문에 list 의 크기만큼 메모리 용량을 사용하게 됩니다.
+    - 반면에 generator 는 데이터 값을 모두 저장하는 것이 아니고 next() 메소드를 통해 값에 접근할 때마다 메모리에 저장하는 방식이어서 메모리 효율이 좋다는점.
+2. Lazy evaluation(말그대로 실행을 지연시킨다는 의미)을 통해 메모리 부족으로 프로그램이 실패하는 것을 방지함으로써 보장되는 안정성
+
+<br/>
+
 ### Reference
 
 - [튜나 개발일기](https://devuna.tistory.com/82)
+- [realpython](https://realpython.com/python-gil/)
+- [coding-lks](https://coding-lks.tistory.com/m/140?category=446043)
