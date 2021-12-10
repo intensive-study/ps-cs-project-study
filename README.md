@@ -60,7 +60,8 @@
 #### Problem Solving
 
 * [백준 15999. 뒤집기(골드3)](https://www.acmicpc.net/problem/15999)
-* 다시 풀어보기 [백준 15997. 승부예측(골드3)](https://www.acmicpc.net/problem/15997)
+* 저번주 금요일 문제 다시 풀어보기 
+* [백준 15997. 승부예측(골드3)](https://www.acmicpc.net/problem/15997)
 
 
 #### CS
