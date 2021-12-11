@@ -16,7 +16,6 @@
 
 #### Problem Solving
 
-* [백준 3687. 성냥개비 (골드2)](https://www.acmicpc.net/problem/3687)
 * [백준 16916. 부분 문자열 (골드3)](https://www.acmicpc.net/problem/16916)
 * [백준 1920. 수찾기 (실버4)](https://www.acmicpc.net/problem/1920)
 
