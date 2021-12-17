@@ -7,6 +7,73 @@
 <hr />
 
 <br/>
+## 12월 3주차(12.19 ~ 12.25)
+
+<br/>
+
+### 월요일
+
+#### Problem Solving
+
+
+
+
+#### CS
+
+* 자료구조
+  * Trie
+  * b-Tree & B+Tree
+
+#### Project
+* 현우 : 회원가입, 수정
+* 은혜 : 문제 출제하기
+* 기윤 : 문제 풀이
+* 이진 : 사용자 문제 점수 계산
+
+<br/>
+
+### 수요일
+
+#### Problem Solving
+
+
+
+#### CS
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+  * 1장. IoC Container & Bean
+  * 2장. ApplicationCotext의 다른 기능들
+  * 3장. Validation & DataBinding 추상화
+
+
+#### Project
+* 현우 : 회원가입, 수정
+* 은혜 : 문제 출제하기
+* 기윤 : 문제 풀이
+* 이진 : 사용자 문제 점수 계산
+
+<br/>
+
+### 금요일
+
+#### Problem Solving
+
+
+
+#### CS
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+  * 4장. Aspect Oriented Programming
+  * 5장. 스프링부트의 원리
+  * 6장. 스프링부트의 핵심 기능
+
+
+#### Project
+
+* 현우 : 회원가입, 수정
+* 은혜 : 문제 출제하기
+* 기윤 : 문제 풀이
+* 이진 : 사용자 문제 점수 계산
+
+<br/>
 
 ## 12월 2주차(12.12 ~ 12.18)
 
