@@ -14,9 +14,9 @@
 ### 월요일
 
 #### Problem Solving
-
-
-
+* [백준 4963. 섬의 개수 (실버2)](https://www.acmicpc.net/problem/4963)
+* [백준 6118. 숨바꼭질 (실버1)](https://www.acmicpc.net/problem/6118)
+* [백준 4095. 최대 정사각형 (골드5)](https://www.acmicpc.net/problem/4095)
 
 #### CS
 
@@ -35,7 +35,9 @@
 ### 수요일
 
 #### Problem Solving
-
+* [백준 1455. 뒤집기2 (실버2)](https://www.acmicpc.net/problem/1455)
+* [백준 4097. 수익 (실버2)](https://www.acmicpc.net/problem/4097)
+* [백준 2696. 중앙값 구하기 (골드2)](https://www.acmicpc.net/problem/2696)
 
 
 #### CS
@@ -56,8 +58,9 @@
 ### 금요일
 
 #### Problem Solving
-
-
+* [백준 11822. 가장 긴 감소하는 부분 수열 (실버2)](https://www.acmicpc.net/problem/11722)
+* [백준 1074. Z (실버1)](https://www.acmicpc.net/problem/1074)
+* [백준 3584. 가장 가까운 공통 조상 (골드4)](https://www.acmicpc.net/problem/3584)
 
 #### CS
 * [Spring Boot](https://github.com/pjok1122/Spring-Summary)
