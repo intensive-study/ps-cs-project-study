@@ -7,8 +7,10 @@
 <hr />
 
 <br/>
-## 12월 3주차(12.19 ~ 12.25)
 
+
+
+## 12월 3주차(12.19 ~ 12.25)
 <br/>
 
 ### 월요일
@@ -63,10 +65,8 @@
 * [백준 3584. 가장 가까운 공통 조상 (골드4)](https://www.acmicpc.net/problem/3584)
 
 #### CS
-* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
-  * 4장. Aspect Oriented Programming
-  * 5장. 스프링부트의 원리
-  * 6장. 스프링부트의 핵심 기능
+* [Spring Boot]
+  [Spring Boot JWT Tutorial](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-jwt/dashboard)
 
 
 #### Project
