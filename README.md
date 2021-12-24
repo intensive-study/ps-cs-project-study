@@ -8,7 +8,68 @@
 
 <br/>
 
+## 12월 4주차(12.27 ~ 12.31)
+<br/>
 
+### 월요일
+
+#### Problem Solving
+* [BOJ 20040. 사이클 게임](https://www.acmicpc.net/problem/20040)
+* [BOJ 1062. 가르침](https://www.acmicpc.net/problem/1062)
+* [BOJ 1644. 소수의 연속합](https://www.acmicpc.net/problem/1644)
+
+#### CS
+읽고 각자 공부하기
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+  * 1장. IoC Container & Bean
+  * 2장. ApplicationCotext의 다른 기능들
+  * 3장. Validation & DataBinding 추상화
+
+
+#### Project
+
+
+<br/>
+
+### 수요일
+
+#### Problem Solving
+
+* [BOJ 2003. 수들의 합 2](https://www.acmicpc.net/problem/2003)
+* [BOJ 4195. 친구 네트워크](https://www.acmicpc.net/problem/4195)
+* [BOJ 15954. 인형들](https://www.acmicpc.net/problem/1062)
+
+#### CS
+읽고 각자 공부하기
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+  * 4장. Aspect Oriented Programming
+  * 5장. 스프링부트의 원리
+  * 6장. 스프링부트의 핵심 기능
+
+
+#### Project
+
+
+<br/>
+
+### 금요일
+
+#### Problem Solving
+* [BOJ 1766. 문제집](https://www.acmicpc.net/problem/1766)
+* [BOJ 1005. ACM Craft](https://www.acmicpc.net/problem/1005)
+* [BOJ 1654. 랜선 자르기](https://www.acmicpc.net/problem/1654)
+
+#### CS
+읽고 각자 공부하기
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+  * 7장. 스프링 웹 기술과 MVC
+  * 8장. 스프링부트 MVC
+  * 9장. 스프링 데이터 액세스 기술
+
+#### Project
+
+
+<br/>
 
 ## 12월 3주차(12.19 ~ 12.25)
 <br/>
