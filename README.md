@@ -37,7 +37,7 @@
 
 * [BOJ 2003. 수들의 합 2](https://www.acmicpc.net/problem/2003)
 * [BOJ 4195. 친구 네트워크](https://www.acmicpc.net/problem/4195)
-* [BOJ 15954. 인형들](https://www.acmicpc.net/problem/1062)
+* [BOJ 15954. 인형들](https://www.acmicpc.net/problem/15954)
 
 #### CS
 읽고 각자 공부하기
