@@ -27,8 +27,8 @@
 JPA 강의
 * [T아카데미 JPA 강의](https://youtube.com/playlist?list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U)
 
-* 현우 : 회원가입, 수정
-* 은혜 : 문제 출제하기
+* 현우 : 회원가입
+* 은혜 : 문제 출제
 * 기윤 : 문제 풀이
 * 이진 : 사용자 문제 점수 계산
 
