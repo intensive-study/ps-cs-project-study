@@ -8,6 +8,52 @@
 
 <br/>
 
+## 1월 1주차(1.2 ~ 1.6)
+<br/>
+
+### 월요일
+
+#### Problem Solving
+* [BOJ 1461. 도서관](https://www.acmicpc.net/problem/1461)
+* [BOJ 1781. 컵라면](https://www.acmicpc.net/problem/1781)
+* [BOJ 1987. 알파벳](https://www.acmicpc.net/problem/1987)
+
+#### CS
+읽고 각자 공부하기
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+
+
+#### Project
+JPA 강의
+* [T아카데미 JPA 강의](https://youtube.com/playlist?list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U)
+
+* 현우 : 회원가입
+* 은혜 : 문제 출제
+* 기윤 : 문제 풀이
+* 이진 : 사용자 문제 점수 계산
+
+<br/>
+
+### 수요일
+
+#### Problem Solving
+
+* [BOJ 1759. 암호 만들기](https://www.acmicpc.net/problem/1759)
+* [BOJ 5569. 출근 경로](https://www.acmicpc.net/problem/5569)
+* [BOJ 2458. 키 순서](https://www.acmicpc.net/problem/2458)
+
+#### CS
+읽고 각자 공부하기
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+
+
+#### Project
+JPA 강의
+* [T아카데미 JPA 강의](https://youtube.com/playlist?list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U)
+
+
+<br/>
+
 ## 12월 4주차(12.27 ~ 12.31)
 <br/>
 
