@@ -16,8 +16,8 @@ def solve(y, x, size):
         solve(y+size//2, x, size//2)
         solve(y+size//2, x+size//2, size//2)
     
-    else: answer += size**2
-
+    else: 
+        answer += size**2
 
 if __name__ == "__main__":
     solve(0, 0, 2**n)
