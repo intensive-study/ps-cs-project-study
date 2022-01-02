@@ -24,7 +24,6 @@
 
 
 #### Project
-JPA 강의
 * [T아카데미 JPA 강의](https://youtube.com/playlist?list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U)
 
 * 현우 : 회원가입
@@ -48,11 +47,23 @@ JPA 강의
 
 
 #### Project
-JPA 강의
 * [T아카데미 JPA 강의](https://youtube.com/playlist?list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U)
 
+<br/>
+
+### 금요일
+
+#### Problem Solving
+* [미정]
+
+#### CS
+읽고 각자 공부하기
+* [Spring Boot](https://github.com/pjok1122/Spring-Summary)
+
+#### Project
 
 <br/>
+
 
 ## 12월 4주차(12.27 ~ 12.31)
 <br/>
