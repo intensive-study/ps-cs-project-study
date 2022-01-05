@@ -54,7 +54,10 @@
 ### 금요일
 
 #### Problem Solving
-* [미정]
+
+* [BOJ 2352. 반도체 설계](https://www.acmicpc.net/problem/2352)
+* [BOJ 1922. 네트워크 연결](https://www.acmicpc.net/problem/1922)
+* [프로그래머스. 징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
 
 #### CS
 읽고 각자 공부하기
