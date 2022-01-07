@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 def sol(nums,N):
     dp = [1] * N
     for i in range(1,N):
@@ -8,7 +11,7 @@ def sol(nums,N):
 
 
 N = int(input())
-nums = list(map(int,sys.stdin.readline().split()))
+nums = list(map(int,input().split()))
 print(sol(nums,N))
 
 4 2 6 3 1 5  dp= [1,1,1,1,1,1]
